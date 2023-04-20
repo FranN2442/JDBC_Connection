@@ -13,11 +13,11 @@ mvn archetype:generate
 ```
 This comand start's the project with a quick start template, then ask us to select the filter:
 
-![IMAGEN](https://github.com/FranN2442/JDBC_Connection/blob/master/images/IniciarMvn.png)
+![IMAGEN](https://github.com/FranN2442/JDBC_Connection/blob/master/images/FiltoPlantilla.png)
 
 Select the number of the version: (Default 8 : latest):
 
-![IMAGEN](https://github.com/FranN2442/JDBC_Connection/blob/master/images/FiltoPlantilla.png)
+![IMAGEN](https://github.com/FranN2442/JDBC_Connection/blob/master/images/version.png)
 
 Name of the groupId:
 
@@ -29,7 +29,7 @@ Define value for artifactId:
 
 For the 'version' press enter and set the default one:
 
-![IMAGEN](https://github.com/FranN2442/JDBC_Connection/blob/master/images/version.png)
+![IMAGEN](https://github.com/FranN2442/JDBC_Connection/blob/master/images/versionSnap.png)
 
 In package write the same as the groupId, this is gonig to be the route of the folers:
 
