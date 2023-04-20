@@ -4,6 +4,22 @@
 
 In this unit we have learned how to connect a java file with an MariaDB using the driver JDBC (Java Data Base Connection), I'm going to show you how I connect to the data base, how I insert, delete and update some data in my database.
 
+## Database creation
+
+To create the database follow these commands:
+
+```
+CREATE DATABASE jdbc_demo;
+```
+```
+USE jdbc_demo;
+```
+```
+CREATE TABLE tipos(
+nombre VARCHAR(45),
+numero INT);
+```
+
 ## Maven Project
 
 For this project I'm going to use Maven. Lets create the project using this command:
@@ -48,6 +64,15 @@ For the second part we need to configure pom.xml file of maven, editing the depe
    <version>YOUR-VERSION</version>
 </dependency>
 ```
+And the SLF4J dependency:
+```
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>2.0.7</version>
+</dependency>
+```
+
 And...Finished!! Maven Project configuration finished
 
 ## Connecting to MariaDB
@@ -122,7 +147,3 @@ In my case I'm going to pass different values to this method's:
 ```
 
 This values depends of the number and the type of colums you have in your table. [See SQL Queries](https://github.com/FranN2442/DataBase-JDBC-Connection/blob/main/jdbc/src/main/java/fran/jdbc/ConnectionJDBC.java)
-
-
-
-
