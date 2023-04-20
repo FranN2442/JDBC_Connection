@@ -13,27 +13,27 @@ mvn archetype:generate
 ```
 This comand start's the project with a quick start template, then ask us to select the filter:
 
-![IMAGEN]()
+![IMAGEN](https://github.com/FranN2442/JDBC_Connection/blob/master/images/IniciarMvn.png)
 
 Select the number of the version: (Default 8 : latest):
 
-![IMAGEN]()
+![IMAGEN](https://github.com/FranN2442/JDBC_Connection/blob/master/images/FiltoPlantilla.png)
 
 Name of the groupId:
 
-![IMAGEN]()
+![IMAGEN](https://github.com/FranN2442/JDBC_Connection/blob/master/images/groupId.png)
 
 Define value for artifactId:
 
-![IMAGEN]()
+![IMAGEN](https://github.com/FranN2442/JDBC_Connection/blob/master/images/artifactId.png)
 
 For the 'version' press enter and set the default one:
 
-![IMAGEN]()
+![IMAGEN](https://github.com/FranN2442/JDBC_Connection/blob/master/images/version.png)
 
 In package write the same as the groupId, this is gonig to be the route of the folers:
 
-![IMAGEN]()
+![IMAGEN](https://github.com/FranN2442/JDBC_Connection/blob/master/images/package.png)
 
 And the first part of the configuration for the maven project is finshed, lets see the second part.
 
