@@ -1,6 +1,5 @@
 # JDBC_Connection
 
-##Index
 
 * [**Introduction**](#Introduction)
 * [**Database creation**](#Database-creation)
