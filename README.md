@@ -5,7 +5,7 @@
 * [**Introduction**](#Introduction)
 * [**Database creation**](#Database-creation)
 * [**Maven Project**](#Maven-Project)
-* [**POM.XML configuration for jdbc**](#POM.XML-configuration-for-JDBC)
+* [**POM.XML configuration for JDBC**](#POM.XML-configuration-for-JDBC)
 * [**Connecting to MariaDB**](#Connecting-to-MariaDB)
 
 
@@ -31,7 +31,7 @@ nombre VARCHAR(45),
 numero INT);
 ```
 
-## Maven_Project
+## Maven Project
 
 For this project I'm going to use Maven. Lets create the project using this command:
 
